@@ -9,7 +9,7 @@ def get_local_ip():
     local_ip = socket.gethostbyname(hostname)
     print(local_ip)
 text = 'GatechIp'
-result = result = pyfiglet.figlet_format(text, font='slant')
+result = pyfiglet.figlet_format(text, font='slant')
 while True:
     print(result)
     print('Command:')
